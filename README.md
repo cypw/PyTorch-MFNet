@@ -1,7 +1,7 @@
 # Multi-Fiber Networks for Video Recognition
 This repository contains the code and trained models of:
 
-Yunpeng Chen, Yannis Kalantidis, Jianshu Li, Shuicheng Yan, Jiashi Feng. "Multi-Fiber Networks for Video Recognition" ([PDF](https://arxiv.org/abs/xx.xxxx)).
+Yunpeng Chen, Yannis Kalantidis, Jianshu Li, Shuicheng Yan, Jiashi Feng. "Multi-Fiber Networks for Video Recognition".
 
 
 ## Implementation
@@ -44,9 +44,9 @@ python evaluate_video.py
 
 Model                   |  Params  |  FLOPs  |  Top-1  |  Top-5  |         MXNet Model
 :-----------------------|:--------:|:-------:|:-------:|:-------:|------------------------------------:
-ResNet-18 (reporduced)  |  11.7 M  |  1.8 G  |  71.4 % |  90.2 % | [GoogleDrive](https://goo.gl/------)
-ResNet-18 (MF embedded) |   9.6 M  |  1.6 G  |  74.3 % |  92.1 % | [GoogleDrive](https://goo.gl/------)
-MF-Net (N=16)           |   5.8 M  |  861 M  |  74.6 % |  92.0 % | [GoogleDrive](https://goo.gl/------)
+ResNet-18 (reproduced)  |  11.7 M  |  1.8 G  |  71.4 % |  90.2 % | [GoogleDrive](https://goo.gl/QSkx8S)
+ResNet-18 (MF embedded) |   9.6 M  |  1.6 G  |  74.3 % |  92.1 % | [GoogleDrive](https://goo.gl/Myq5Wh)
+MF-Net (N=16)           |   5.8 M  |  861 M  |  74.6 % |  92.0 % | [GoogleDrive](https://goo.gl/53Gfsg)
 
 
 ### Video Recognition (UCF-101, HMDB51, Kinetics)
@@ -64,10 +64,10 @@ MF-Net \(3D\) |  8.0 M |      HMDB51       | 74.6 %*
 
 Model         |  Target Dataset  |            PyTorch Model
 :-------------|:----------------:|:----------------------------------:
-MF-Net \(2D\) |   ImageNet-1k    |[GoogleDrive](https://goo.gl/------)
-MF-Net \(3D\) |     Kinetics     |[GoogleDrive](https://goo.gl/------)
-MF-Net \(3D\) | UCF-101 (split1) |[GoogleDrive](https://goo.gl/------)
-MF-Net \(3D\) |  HMDB51 (split1) |[GoogleDrive](https://goo.gl/------)
+MF-Net \(2D\) |   ImageNet-1k    |[GoogleDrive](https://goo.gl/h5jG3B)
+MF-Net \(3D\) |     Kinetics     |[GoogleDrive](https://goo.gl/QdE85T)
+MF-Net \(3D\) | UCF-101 (split1) |[GoogleDrive](https://goo.gl/mML2gv)
+MF-Net \(3D\) |  HMDB51 (split1) |[GoogleDrive](https://goo.gl/cD4hnw)
 
 
 ## Other Resources
