@@ -75,11 +75,8 @@ Please organize this folder as follow:
 │   ├── raw
 │   │   ├── data -> ../../../../DATA/Kinetics/raw/data
 │   │   │   ├── test
-│   │   │   ├── test_avi-x256
 │   │   │   ├── train
-│   │   │   ├── train_avi-x256
-│   │   │   ├── val
-│   │   │   └── val_avi-x256
+│   │   │   └── val
 │   │   └── list_cvt
 │   │       ├── kinetics_test.txt
 │   │       ├── kinetics_test_avi.txt
@@ -89,15 +86,8 @@ Please organize this folder as follow:
 │   │       ├── kinetics_val_avi.txt
 │   │       └── mapping_table.txt
 │   └── scripts
-│       ├── convert_list_avi.py
-│       ├── convert_list_missed_avi.py
-│       ├── convert_list_missed.py
-│       ├── convert_list.py
-│       ├── remove_spaces.py
-│       ├── rename_missed_mp4.py
-│       ├── sampling_kinetics_mini.py
-│       ├── transform_video_format_missed.py
-│       └── transform_video_format.py
+│       ├── convert_video.py
+│       └── remove_spaces.py
 ├── README.md
 └── UCF101
     └── raw
