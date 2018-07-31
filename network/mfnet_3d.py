@@ -67,7 +67,7 @@ class MFNET_3D(nn.Module):
     def __init__(self, num_classes, pretrained=False, **kwargs):
         super(MFNET_3D, self).__init__()
 
-        groups = 4
+        groups = 16
         k_sec  = {  2: 2, \
                     3: 2, \
                     4: 2, \
