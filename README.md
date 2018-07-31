@@ -1,12 +1,12 @@
 # Multi-Fiber Networks for Video Recognition
 This repository contains the code and trained models of:
 
-Yunpeng Chen, Yannis Kalantidis, Jianshu Li, Shuicheng Yan, Jiashi Feng. "Multi-Fiber Networks for Video Recognition".
+Yunpeng Chen, Yannis Kalantidis, Jianshu Li, Shuicheng Yan, Jiashi Feng. "Multi-Fiber Networks for Video Recognition" ([PDF](http://arxiv.org/abs/1807.11195)).
 
 
 ## Implementation
 
-MF-Nets are implemented by [MXNet \@92053bd](https://github.com/cypw/mxnet/tree/92053bd3e71f687b5315b8412a6ac65eb0cc32d5) and [PyTorch 0.4.0a0\@a83c240](https://github.com/pytorch/pytorch).
+We use [MXNet \@92053bd](https://github.com/cypw/mxnet/tree/92053bd3e71f687b5315b8412a6ac65eb0cc32d5) for image classification and [PyTorch 0.4.0a0\@a83c240](https://github.com/pytorch/pytorch) for video classification.
 
 ### Normalization
 The inputs are substrated by mean RGB = [ 124, 117, 104 ], and then multiplied by 0.0167.
