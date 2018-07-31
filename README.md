@@ -40,7 +40,7 @@ python evaluate_video.py
 
 ### Image Recognition (ImageNet-1k)
 
-**Single Model, Single Crop Validation Error:**
+**Single Model, Single Crop Validation Accuracy:**
 
 Model                   |  Params  |  FLOPs  |  Top-1  |  Top-5  |         MXNet Model
 :-----------------------|:--------:|:-------:|:-------:|:-------:|------------------------------------:
