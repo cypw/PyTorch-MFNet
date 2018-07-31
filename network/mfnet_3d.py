@@ -83,8 +83,8 @@ class MFNET_3D(nn.Module):
         self.maxpool = nn.MaxPool3d(kernel_size=(1,3,3), stride=(1,2,2), padding=(0,1,1))
 
         # conv2 - x56 (x8)
-        num_mid = 64
-        conv2_num_out = 128
+        num_mid = 96
+        conv2_num_out = 96
         self.conv2 = nn.Sequential(OrderedDict([
                     ("B%02d"%i, MF_UNIT(num_in=conv1_num_out if i==1 else conv2_num_out,
                                         num_mid=num_mid,
