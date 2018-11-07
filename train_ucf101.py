@@ -46,7 +46,7 @@ parser.add_argument('--network', type=str, default='MFNet_3D',
 parser.add_argument('--pretrained_2d', type=bool, default=True,
                     help="load default 2D pretrained model.")
 parser.add_argument('--pretrained_3d', type=str, 
-                    default='./network/pretrained/vY5_866M_Kinetics_v50_fm16-it123_ep-0019.pth',
+                    default='./network/pretrained/MFNet3D_Kinetics-400_72.8.pth',
                     help="load default 3D pretrained model.")
 parser.add_argument('--resume-epoch', type=int, default=-1,
                     help="resume train")
